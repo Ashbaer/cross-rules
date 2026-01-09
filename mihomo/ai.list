@@ -111,23 +111,76 @@ DOMAIN-SUFFIX,suno.com
 # ---------------------------------------------
 DOMAIN-SUFFIX,character.ai
 
+# =============================================
+# AI 编码工具
+# =============================================
+
 # ---------------------------------------------
 # Cursor - AI 代码编辑器
 # ---------------------------------------------
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor.so
 
 # ---------------------------------------------
-# GitHub Copilot
+# GitHub Copilot - AI 代码补全
 # ---------------------------------------------
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot.github.com
 DOMAIN,api.githubcopilot.com
 
 # ---------------------------------------------
+# Codeium / Windsurf - AI 代码补全
+# ---------------------------------------------
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.ai
+DOMAIN-SUFFIX,windsurf.com
+
+# ---------------------------------------------
+# Supermaven - AI 代码补全
+# ---------------------------------------------
+DOMAIN-SUFFIX,supermaven.com
+
+# ---------------------------------------------
+# Sourcegraph Cody - AI 代码助手
+# ---------------------------------------------
+DOMAIN-SUFFIX,sourcegraph.com
+
+# ---------------------------------------------
+# Replit - 在线 IDE (AI 功能)
+# ---------------------------------------------
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,repl.it
+DOMAIN-SUFFIX,repl.co
+
+# ---------------------------------------------
 # Vercel v0 - AI 前端生成
 # ---------------------------------------------
 DOMAIN-SUFFIX,v0.dev
+
+# ---------------------------------------------
+# Bolt.new - AI 全栈开发
+# ---------------------------------------------
+DOMAIN-SUFFIX,bolt.new
+
+# ---------------------------------------------
+# Devin - AI 软件工程师
+# ---------------------------------------------
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,cognition-labs.com
+DOMAIN-SUFFIX,cognition.ai
+
+# ---------------------------------------------
+# Tabnine - AI 代码补全
+# ---------------------------------------------
+DOMAIN-SUFFIX,tabnine.com
+
+# ---------------------------------------------
+# Amazon CodeWhisperer / Q Developer
+# ---------------------------------------------
+DOMAIN-SUFFIX,codewhisperer.aws
+DOMAIN,q.us-east-1.amazonaws.com
 
 # ---------------------------------------------
 # Replicate - AI 模型部署
