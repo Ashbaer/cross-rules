@@ -179,13 +179,13 @@ DOMAIN-SUFFIX,controld.com
 #
 # 使用方式 (在 mihomo 配置中):
 # rule-providers:
-#   dns:
+#   intl-dns:
 #     type: http
 #     behavior: classical
-#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/dns.list"
-#     path: ./ruleset/dns.list
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/intl-dns.list"
+#     path: ./ruleset/intl-dns.list
 #     interval: 86400
 #
 # rules:
-#   - RULE-SET,dns,代理策略组
+#   - RULE-SET,intl-dns,代理策略组
 # =============================================
