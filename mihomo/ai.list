@@ -1,5 +1,5 @@
 # =============================================
-# AI 网站与工具规则集
+# AI 网站与工具规则集 (仅限中国大陆无法访问的服务)
 # 适用于 mihomo (Clash.Meta)
 # 更新日期: 2026-01-09
 # =============================================
@@ -34,26 +34,21 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 
 # ---------------------------------------------
-# Microsoft AI - Copilot, Bing AI
+# Microsoft Copilot - AI 助手 (Bing 主站国内可访问，仅代理 Copilot)
 # ---------------------------------------------
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.com
 DOMAIN,sydney.bing.com
-DOMAIN,edgeservices.bing.com
 
 # ---------------------------------------------
 # Midjourney - AI 绘图
 # ---------------------------------------------
 DOMAIN-SUFFIX,midjourney.com
-DOMAIN-SUFFIX,midjourney.org
 
 # ---------------------------------------------
 # Stability AI - Stable Diffusion
 # ---------------------------------------------
 DOMAIN-SUFFIX,stability.ai
-DOMAIN-SUFFIX,stablediffusionweb.com
 DOMAIN-SUFFIX,dreamstudio.ai
 
 # ---------------------------------------------
@@ -67,39 +62,33 @@ DOMAIN-SUFFIX,pplx.ai
 # ---------------------------------------------
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
-DOMAIN-SUFFIX,huggingface.tech
 
 # ---------------------------------------------
 # Cohere - 企业级 AI
 # ---------------------------------------------
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,cohere.com
-DOMAIN-SUFFIX,coral.cohere.com
 
 # ---------------------------------------------
 # Mistral AI - 开源大模型
 # ---------------------------------------------
 DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,chat.mistral.ai
 
 # ---------------------------------------------
 # Meta AI - LLaMA
 # ---------------------------------------------
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,llama.meta.com
 DOMAIN-SUFFIX,ai.meta.com
 
 # ---------------------------------------------
 # xAI - Grok
 # ---------------------------------------------
 DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.x.ai
 
 # ---------------------------------------------
 # Runway - AI 视频生成
 # ---------------------------------------------
 DOMAIN-SUFFIX,runwayml.com
-DOMAIN-SUFFIX,runway.com
 
 # ---------------------------------------------
 # Pika Labs - AI 视频
@@ -110,7 +99,6 @@ DOMAIN-SUFFIX,pika.art
 # ElevenLabs - AI 语音合成
 # ---------------------------------------------
 DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN-SUFFIX,eleven-labs.com
 
 # ---------------------------------------------
 # Suno - AI 音乐生成
@@ -122,35 +110,12 @@ DOMAIN-SUFFIX,suno.com
 # Character.AI - AI 角色对话
 # ---------------------------------------------
 DOMAIN-SUFFIX,character.ai
-DOMAIN-SUFFIX,beta.character.ai
-
-# ---------------------------------------------
-# Jasper AI - AI 写作助手
-# ---------------------------------------------
-DOMAIN-SUFFIX,jasper.ai
-
-# ---------------------------------------------
-# Copy.ai - AI 文案生成
-# ---------------------------------------------
-DOMAIN-SUFFIX,copy.ai
-
-# ---------------------------------------------
-# Writesonic - AI 写作
-# ---------------------------------------------
-DOMAIN-SUFFIX,writesonic.com
-
-# ---------------------------------------------
-# Notion AI
-# ---------------------------------------------
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,notion.site
 
 # ---------------------------------------------
 # Cursor - AI 代码编辑器
 # ---------------------------------------------
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursorapi.com
 
 # ---------------------------------------------
 # GitHub Copilot
@@ -160,10 +125,9 @@ DOMAIN,copilot.github.com
 DOMAIN,api.githubcopilot.com
 
 # ---------------------------------------------
-# Vercel AI / v0
+# Vercel v0 - AI 前端生成
 # ---------------------------------------------
 DOMAIN-SUFFIX,v0.dev
-DOMAIN-SUFFIX,vercel.ai
 
 # ---------------------------------------------
 # Replicate - AI 模型部署
@@ -176,29 +140,21 @@ DOMAIN-SUFFIX,replicate.delivery
 # ---------------------------------------------
 DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,together.xyz
-DOMAIN-SUFFIX,api.together.ai
 
 # ---------------------------------------------
 # Groq - 高速 AI 推理
 # ---------------------------------------------
 DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,console.groq.com
 
 # ---------------------------------------------
 # Leonardo.AI - AI 图像生成
 # ---------------------------------------------
 DOMAIN-SUFFIX,leonardo.ai
-DOMAIN-SUFFIX,app.leonardo.ai
 
 # ---------------------------------------------
 # Ideogram - AI 图像生成
 # ---------------------------------------------
 DOMAIN-SUFFIX,ideogram.ai
-
-# ---------------------------------------------
-# Civitai - AI 模型社区
-# ---------------------------------------------
-DOMAIN-SUFFIX,civitai.com
 
 # ---------------------------------------------
 # Poe - AI 聚合平台
@@ -220,48 +176,17 @@ DOMAIN-SUFFIX,phind.com
 # ---------------------------------------------
 DOMAIN-SUFFIX,inflection.ai
 DOMAIN-SUFFIX,pi.ai
-DOMAIN-SUFFIX,heypi.com
-
-# ---------------------------------------------
-# Dify - AI 应用开发平台
-# ---------------------------------------------
-DOMAIN-SUFFIX,dify.ai
-
-# ---------------------------------------------
-# LangChain / LangSmith
-# ---------------------------------------------
-DOMAIN-SUFFIX,langchain.com
-DOMAIN-SUFFIX,smith.langchain.com
-
-# ---------------------------------------------
-# Weights & Biases - MLOps
-# ---------------------------------------------
-DOMAIN-SUFFIX,wandb.ai
-DOMAIN-SUFFIX,wandb.com
-
-# ---------------------------------------------
-# Scale AI - 数据标注
-# ---------------------------------------------
-DOMAIN-SUFFIX,scale.com
-DOMAIN-SUFFIX,scale.ai
-
-# ---------------------------------------------
-# Pinecone - 向量数据库
-# ---------------------------------------------
-DOMAIN-SUFFIX,pinecone.io
-
-# ---------------------------------------------
-# Weaviate - 向量数据库
-# ---------------------------------------------
-DOMAIN-SUFFIX,weaviate.io
-DOMAIN-SUFFIX,weaviate.cloud
 
 # =============================================
 # 规则说明:
 # - DOMAIN-SUFFIX: 匹配域名后缀
 # - DOMAIN: 精确匹配完整域名
-# - DOMAIN-KEYWORD: 匹配域名中的关键词
 # 
+# 已排除的服务 (中国大陆可正常访问):
+# - Notion, Bing 主站, Dify, LangChain
+# - Weights & Biases, Scale AI, Civitai
+# - Pinecone, Weaviate 等
+#
 # 使用方式 (在 mihomo 配置中):
 # rule-providers:
 #   ai:
