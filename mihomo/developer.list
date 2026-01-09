@@ -1,0 +1,418 @@
+# =============================================
+# 程序员常用网站规则集 (中国大陆访问不稳定或无法访问)
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# =============================================
+
+# =============================================
+# 代码托管平台
+# =============================================
+
+# ---------------------------------------------
+# GitHub - 代码托管 (部分地区不稳定)
+# ---------------------------------------------
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.blog
+DOMAIN,raw.githubusercontent.com
+DOMAIN,gist.github.com
+DOMAIN,api.github.com
+
+# ---------------------------------------------
+# GitLab - 代码托管
+# ---------------------------------------------
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab-static.net
+
+# ---------------------------------------------
+# Bitbucket - 代码托管
+# ---------------------------------------------
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,bitbucket.io
+
+# =============================================
+# 包管理与镜像
+# =============================================
+
+# ---------------------------------------------
+# npm / Node.js - JavaScript 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npm.community
+DOMAIN,registry.npmjs.org
+
+# ---------------------------------------------
+# PyPI - Python 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN,files.pythonhosted.org
+
+# ---------------------------------------------
+# RubyGems - Ruby 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,rubygems.org
+
+# ---------------------------------------------
+# Crates.io - Rust 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,crates.io
+DOMAIN-SUFFIX,static.crates.io
+
+# ---------------------------------------------
+# Go Modules - Go 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,proxy.golang.org
+DOMAIN-SUFFIX,sum.golang.org
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,go.dev
+
+# ---------------------------------------------
+# Docker Hub - 容器镜像
+# ---------------------------------------------
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+DOMAIN,registry-1.docker.io
+DOMAIN,index.docker.io
+DOMAIN,auth.docker.io
+DOMAIN,production.cloudflare.docker.com
+
+# ---------------------------------------------
+# GitHub Container Registry
+# ---------------------------------------------
+DOMAIN-SUFFIX,ghcr.io
+
+# ---------------------------------------------
+# Homebrew - macOS 包管理
+# ---------------------------------------------
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,homebrew.bintray.com
+
+# =============================================
+# 技术文档与学习
+# =============================================
+
+# ---------------------------------------------
+# Stack Overflow - 技术问答
+# ---------------------------------------------
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,sstatic.net
+DOMAIN-SUFFIX,askubuntu.com
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,superuser.com
+
+# ---------------------------------------------
+# MDN Web Docs - Web 开发文档
+# ---------------------------------------------
+DOMAIN-SUFFIX,developer.mozilla.org
+
+# ---------------------------------------------
+# Dev.to - 开发者社区
+# ---------------------------------------------
+DOMAIN-SUFFIX,dev.to
+DOMAIN-SUFFIX,forem.com
+
+# ---------------------------------------------
+# Hacker News - 技术新闻
+# ---------------------------------------------
+DOMAIN-SUFFIX,ycombinator.com
+DOMAIN-SUFFIX,news.ycombinator.com
+
+# ---------------------------------------------
+# Reddit - 技术讨论
+# ---------------------------------------------
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+# ---------------------------------------------
+# Medium - 技术博客
+# ---------------------------------------------
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,towardsdatascience.com
+
+# ---------------------------------------------
+# Hashnode - 开发者博客
+# ---------------------------------------------
+DOMAIN-SUFFIX,hashnode.com
+DOMAIN-SUFFIX,hashnode.dev
+
+# ---------------------------------------------
+# freeCodeCamp - 编程学习
+# ---------------------------------------------
+DOMAIN-SUFFIX,freecodecamp.org
+
+# ---------------------------------------------
+# W3Schools - Web 教程
+# ---------------------------------------------
+DOMAIN-SUFFIX,w3schools.com
+
+# =============================================
+# 云服务与部署平台
+# =============================================
+
+# ---------------------------------------------
+# Vercel - 前端部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,now.sh
+
+# ---------------------------------------------
+# Netlify - 静态网站部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlifyglobalcdn.com
+
+# ---------------------------------------------
+# Heroku - 应用部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokuapp.com
+
+# ---------------------------------------------
+# Railway - 应用部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,railway.app
+
+# ---------------------------------------------
+# Render - 云应用部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,render.com
+DOMAIN-SUFFIX,onrender.com
+
+# ---------------------------------------------
+# Fly.io - 边缘部署
+# ---------------------------------------------
+DOMAIN-SUFFIX,fly.io
+DOMAIN-SUFFIX,fly.dev
+
+# ---------------------------------------------
+# Supabase - 后端即服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,supabase.com
+DOMAIN-SUFFIX,supabase.co
+DOMAIN-SUFFIX,supabase.io
+
+# ---------------------------------------------
+# Firebase - Google 后端服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,firebase.google.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+
+# ---------------------------------------------
+# Cloudflare - CDN/安全服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
+
+# =============================================
+# 开发工具与服务
+# =============================================
+
+# ---------------------------------------------
+# VS Code - 编辑器资源
+# ---------------------------------------------
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN,marketplace.visualstudio.com
+DOMAIN,code.visualstudio.com
+
+# ---------------------------------------------
+# JetBrains - IDE
+# ---------------------------------------------
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,intellij.com
+DOMAIN-SUFFIX,kotlinlang.org
+
+# ---------------------------------------------
+# Figma - UI 设计
+# ---------------------------------------------
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,figmaelements.com
+
+# ---------------------------------------------
+# Postman - API 测试
+# ---------------------------------------------
+DOMAIN-SUFFIX,postman.com
+DOMAIN-SUFFIX,getpostman.com
+
+# ---------------------------------------------
+# Swagger / OpenAPI
+# ---------------------------------------------
+DOMAIN-SUFFIX,swagger.io
+
+# ---------------------------------------------
+# Sentry - 错误监控
+# ---------------------------------------------
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sentry-cdn.com
+
+# ---------------------------------------------
+# Datadog - 监控服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,datadoghq.com
+
+# ---------------------------------------------
+# Grafana - 可视化监控
+# ---------------------------------------------
+DOMAIN-SUFFIX,grafana.com
+DOMAIN-SUFFIX,grafana.net
+
+# =============================================
+# API 与第三方服务
+# =============================================
+
+# ---------------------------------------------
+# Stripe - 支付服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+
+# ---------------------------------------------
+# Twilio - 通信 API
+# ---------------------------------------------
+DOMAIN-SUFFIX,twilio.com
+
+# ---------------------------------------------
+# SendGrid - 邮件服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,sendgrid.com
+DOMAIN-SUFFIX,sendgrid.net
+
+# ---------------------------------------------
+# Auth0 - 身份认证
+# ---------------------------------------------
+DOMAIN-SUFFIX,auth0.com
+
+# ---------------------------------------------
+# Algolia - 搜索服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,algolia.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,algolianet.com
+
+# ---------------------------------------------
+# Segment - 数据分析
+# ---------------------------------------------
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,segment.io
+
+# ---------------------------------------------
+# Mixpanel - 产品分析
+# ---------------------------------------------
+DOMAIN-SUFFIX,mixpanel.com
+
+# =============================================
+# 文档托管
+# =============================================
+
+# ---------------------------------------------
+# Read the Docs - 文档托管
+# ---------------------------------------------
+DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readthedocs.org
+DOMAIN-SUFFIX,rtfd.io
+
+# ---------------------------------------------
+# GitBook - 文档平台
+# ---------------------------------------------
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,gitbook.com
+
+# ---------------------------------------------
+# Notion - 文档协作 (部分功能)
+# ---------------------------------------------
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+
+# =============================================
+# 其他开发资源
+# =============================================
+
+# ---------------------------------------------
+# Codepen - 前端代码演示
+# ---------------------------------------------
+DOMAIN-SUFFIX,codepen.io
+
+# ---------------------------------------------
+# CodeSandbox - 在线 IDE
+# ---------------------------------------------
+DOMAIN-SUFFIX,codesandbox.io
+DOMAIN-SUFFIX,csb.app
+
+# ---------------------------------------------
+# StackBlitz - 在线 IDE
+# ---------------------------------------------
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,stackblitz.io
+
+# ---------------------------------------------
+# JSFiddle - JavaScript 演示
+# ---------------------------------------------
+DOMAIN-SUFFIX,jsfiddle.net
+
+# ---------------------------------------------
+# Regex101 - 正则表达式测试
+# ---------------------------------------------
+DOMAIN-SUFFIX,regex101.com
+
+# ---------------------------------------------
+# Can I Use - 浏览器兼容性
+# ---------------------------------------------
+DOMAIN-SUFFIX,caniuse.com
+
+# ---------------------------------------------
+# Dribbble - 设计灵感
+# ---------------------------------------------
+DOMAIN-SUFFIX,dribbble.com
+
+# ---------------------------------------------
+# Unsplash - 免费图片
+# ---------------------------------------------
+DOMAIN-SUFFIX,unsplash.com
+
+# ---------------------------------------------
+# Font Awesome - 图标库
+# ---------------------------------------------
+DOMAIN-SUFFIX,fontawesome.com
+
+# ---------------------------------------------
+# Google Fonts - 字体服务
+# ---------------------------------------------
+DOMAIN-SUFFIX,fonts.google.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# - DOMAIN: 精确匹配完整域名
+# 
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   developer:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/developer.list"
+#     path: ./ruleset/developer.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,developer,代理策略组
+# =============================================
