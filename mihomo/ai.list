@@ -1,5 +1,5 @@
 # =============================================
-# AI 网站与工具规则集 (仅限中国大陆无法访问的服务)
+# AI 网站与工具规则集
 # 适用于 mihomo (Clash.Meta)
 # 更新日期: 2026-01-09
 # =============================================
@@ -234,11 +234,6 @@ DOMAIN-SUFFIX,pi.ai
 # 规则说明:
 # - DOMAIN-SUFFIX: 匹配域名后缀
 # - DOMAIN: 精确匹配完整域名
-# 
-# 已排除的服务 (中国大陆可正常访问):
-# - Notion, Bing 主站, Dify, LangChain
-# - Weights & Biases, Scale AI, Civitai
-# - Pinecone, Weaviate 等
 #
 # 使用方式 (在 mihomo 配置中):
 # rule-providers:
