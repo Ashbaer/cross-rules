@@ -9,7 +9,8 @@ cross-rules/
 ├── README.md              # 项目说明文档
 └── mihomo/                # mihomo 规则集
     ├── ai.list            # AI 网站与工具规则
-    └── developer.list     # 程序员常用网站规则
+    ├── developer.list     # 程序员常用网站规则
+    └── lan.list           # 局域网 / 私有网络规则
 ```
 
 ## 规则列表
@@ -18,6 +19,7 @@ cross-rules/
 |------|------|
 | `mihomo/ai.list` | AI 网站与工具 |
 | `mihomo/developer.list` | 程序员常用网站 |
+| `mihomo/lan.list` | 局域网 IPv4/IPv6 |
 
 ## 使用方式
 
