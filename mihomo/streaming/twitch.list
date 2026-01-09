@@ -1,0 +1,18 @@
+# =============================================
+# Twitch 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 普通代理节点即可
+# 解锁难度: ⭐ (简单)
+# 建议: 选择延迟低的节点以获得更好的直播体验
+# =============================================
+
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,twitchsvc.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,twitchcdn-shadow.net
+DOMAIN-KEYWORD,twitch

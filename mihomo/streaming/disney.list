@@ -1,0 +1,41 @@
+# =============================================
+# Disney+ 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 原生 IP 或支持解锁的节点
+# 解锁难度: ⭐⭐⭐⭐ (较难)
+# 建议: 使用香港/新加坡/美国等地区解锁节点
+# =============================================
+
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,disney.co
+DOMAIN-SUFFIX,disney.io
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,go.com
+DOMAIN-SUFFIX,disneynow.com
+DOMAIN-SUFFIX,disneyinternational.com
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-KEYWORD,disneyplus
+DOMAIN-KEYWORD,disney
+
+# Hulu (Disney 旗下)
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+
+# ESPN+ (Disney 旗下)
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+DOMAIN-SUFFIX,espn.hb.omtrdc.net
+
+# Star+ (Disney 旗下)
+DOMAIN-SUFFIX,starplus.com
+DOMAIN-SUFFIX,star.com

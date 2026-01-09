@@ -1,0 +1,25 @@
+# =============================================
+# HBO Max / Max 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 美国原生 IP
+# 解锁难度: ⭐⭐⭐⭐⭐ (很难)
+# 建议: 需要美区原生住宅 IP，普通机场节点基本无法解锁
+# =============================================
+
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,maxgo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,wbd.com
+DOMAIN-SUFFIX,warnerbros.com
+DOMAIN-SUFFIX,warnermedia.com
+DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-KEYWORD,hbomax
+DOMAIN-KEYWORD,hbogo

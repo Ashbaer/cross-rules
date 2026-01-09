@@ -1,0 +1,27 @@
+# =============================================
+# Amazon Prime Video 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 对应地区节点
+# 解锁难度: ⭐⭐⭐ (中等)
+# 建议: 不同地区内容库不同，选择想看内容的地区节点
+# =============================================
+
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,amazonprime.com
+DOMAIN-SUFFIX,llnwd.net
+DOMAIN,atv-ps.amazon.com
+DOMAIN,fls-na.amazon.com
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN-KEYWORD,primevideo
+DOMAIN-KEYWORD,amazonvideo

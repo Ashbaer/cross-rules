@@ -1,0 +1,35 @@
+# =============================================
+# TikTok (国际版) 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 非中国大陆节点，建议日本/美国/新加坡
+# 解锁难度: ⭐⭐ (简单)
+# 建议: 需要配合修改设备地区或使用特定客户端
+# =============================================
+
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktoktv.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytedns.net
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytetcdn.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,musemuse.cn
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,ttoversea.net
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,bytedance
+DOMAIN-KEYWORD,musical.ly

@@ -1,0 +1,19 @@
+# =============================================
+# Bilibili 国际版规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-09
+# 
+# 节点要求: 东南亚节点 (港/台/东南亚)
+# 解锁难度: ⭐⭐ (简单)
+# 建议: 使用港台或东南亚节点观看区域限定内容
+# =============================================
+
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN-SUFFIX,bstarstatic.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,p.bstarstatic.com
+DOMAIN,p-bstarstatic.akamaized.net
+DOMAIN-KEYWORD,biliintl
