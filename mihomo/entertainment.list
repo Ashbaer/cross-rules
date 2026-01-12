@@ -1,0 +1,81 @@
+# =============================================
+# 娱乐与内容平台规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-12
+# =============================================
+
+# =============================================
+# 媒体平台 (JP)
+# =============================================
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,fanza.com
+DOMAIN-SUFFIX,mgstage.com
+DOMAIN-SUFFIX,fc2hub.com
+DOMAIN-SUFFIX,contents.fc2.com
+DOMAIN-SUFFIX,prestige-av.com
+DOMAIN-SUFFIX,moodyz.com
+DOMAIN-SUFFIX,s1s1s1.com
+DOMAIN-SUFFIX,attackers.net
+DOMAIN-SUFFIX,madonna-av.com
+DOMAIN-SUFFIX,caribbeancom.co
+DOMAIN-SUFFIX,hbox.jp
+
+# =============================================
+# 媒体资源索引
+# =============================================
+DOMAIN-SUFFIX,javbus.com
+DOMAIN-SUFFIX,airav.wiki
+DOMAIN-SUFFIX,airav.io
+DOMAIN-SUFFIX,javlibrary.com
+DOMAIN-SUFFIX,avbase.net
+DOMAIN-SUFFIX,arzon.jp
+DOMAIN-SUFFIX,freejavbt.com
+DOMAIN-SUFFIX,jav321.com
+DOMAIN-SUFFIX,javdb.com
+DOMAIN-SUFFIX,madou.club
+DOMAIN-SUFFIX,madouqu.com
+DOMAIN-SUFFIX,7mmtv.sx
+DOMAIN-SUFFIX,ffaoa.com
+
+# =============================================
+# 媒体平台 (Global)
+# =============================================
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xnxx.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,youporn.com
+
+# =============================================
+# 社区讨论
+# =============================================
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,caoliu.com
+
+# =============================================
+# ACG 资源
+# =============================================
+DOMAIN-SUFFIX,wnacg.org
+DOMAIN-SUFFIX,hitomi.la
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,nhentai.net
+
+# =============================================
+# P2P 服务
+# =============================================
+DOMAIN-SUFFIX,sukebei.nyaa.si
+DOMAIN-SUFFIX,javtorrent.re
+DOMAIN-SUFFIX,tokyomotion.net
+
+# =============================================
+# 创作者平台
+# =============================================
+DOMAIN-SUFFIX,fantia.jp
+DOMAIN-SUFFIX,patreon.com
+DOMAIN-SUFFIX,onlyfans.com
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# =============================================
