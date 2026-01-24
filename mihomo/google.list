@@ -1,0 +1,205 @@
+# =============================================
+# Google 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-25
+# =============================================
+
+# =============================================
+# Google 核心域名
+# =============================================
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.fr
+DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,google.com.au
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.com.sg
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.in
+DOMAIN-SUFFIX,google.ru
+DOMAIN-SUFFIX,google.it
+DOMAIN-SUFFIX,google.es
+DOMAIN-SUFFIX,google.nl
+DOMAIN-SUFFIX,google.org
+DOMAIN-SUFFIX,google.ai
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,google.app
+DOMAIN-KEYWORD,google
+
+# =============================================
+# Google 静态资源 / CDN
+# =============================================
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,googlehosted.com
+
+# =============================================
+# Google API 与服务
+# =============================================
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,googlecode.com
+DOMAIN-SUFFIX,googlecnapps.cn
+
+# =============================================
+# Gmail / 邮件服务
+# =============================================
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN,mail.google.com
+DOMAIN,inbox.google.com
+
+# =============================================
+# Google Drive / 文档
+# =============================================
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN,drive.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+DOMAIN,forms.google.com
+
+# =============================================
+# Google 搜索与翻译
+# =============================================
+DOMAIN,www.google.com
+DOMAIN,translate.google.com
+DOMAIN,translate.googleapis.com
+DOMAIN,books.google.com
+DOMAIN,scholar.google.com
+DOMAIN,news.google.com
+
+# =============================================
+# Google 地图
+# =============================================
+DOMAIN-SUFFIX,maps.google.com
+DOMAIN-SUFFIX,mapsengine.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com
+
+# =============================================
+# Google Cloud
+# =============================================
+DOMAIN-SUFFIX,cloud.google.com
+DOMAIN-SUFFIX,googlecloud.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebase.google.com
+
+# =============================================
+# Google Play
+# =============================================
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,android.clients.google.com
+
+# =============================================
+# Google 广告与分析
+# =============================================
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,googleoptimize.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,2mdn.net
+
+# =============================================
+# Google Meet / Chat
+# =============================================
+DOMAIN,meet.google.com
+DOMAIN,chat.google.com
+DOMAIN,hangouts.google.com
+
+# =============================================
+# Google 其他服务
+# =============================================
+DOMAIN-SUFFIX,googlegroups.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN,photos.google.com
+DOMAIN,calendar.google.com
+DOMAIN,contacts.google.com
+DOMAIN,keep.google.com
+DOMAIN,fonts.google.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,earth.google.com
+DOMAIN,lens.google.com
+
+# =============================================
+# Chromium / Chrome
+# =============================================
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,chrome.com
+DOMAIN,chromewebstore.google.com
+DOMAIN,clients1.google.com
+DOMAIN,clients2.google.com
+DOMAIN,clients3.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients5.google.com
+
+# =============================================
+# Google IP 地址段 (可选)
+# =============================================
+IP-CIDR,35.190.0.0/16,no-resolve
+IP-CIDR,35.191.0.0/16,no-resolve
+IP-CIDR,35.192.0.0/12,no-resolve
+IP-CIDR,35.224.0.0/12,no-resolve
+IP-CIDR,35.240.0.0/13,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.80.0/20,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,108.177.8.0/21,no-resolve
+IP-CIDR,108.177.96.0/19,no-resolve
+IP-CIDR,130.211.0.0/16,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,172.253.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+IP-CIDR6,2001:4860::/32,no-resolve
+IP-CIDR6,2404:6800::/32,no-resolve
+IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2800:3f0::/32,no-resolve
+IP-CIDR6,2a00:1450::/32,no-resolve
+IP-CIDR6,2c0f:fb50::/32,no-resolve
+
+# =============================================
+# 规则说明:
+# - DOMAIN-SUFFIX: 匹配域名后缀
+# - DOMAIN: 精确匹配完整域名
+# - DOMAIN-KEYWORD: 匹配域名关键词
+# - IP-CIDR: IPv4 地址段匹配
+# - IP-CIDR6: IPv6 地址段匹配
+#
+# 使用方式 (在 mihomo 配置中):
+# rule-providers:
+#   google:
+#     type: http
+#     behavior: classical
+#     url: "https://raw.githubusercontent.com/Ashbaer/cross-rules/main/mihomo/google.list"
+#     path: ./ruleset/google.list
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,google,代理策略组
+# =============================================
