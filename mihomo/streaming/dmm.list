@@ -1,0 +1,26 @@
+# =============================================
+# DMM 规则集
+# 适用于 mihomo (Clash.Meta)
+# 更新日期: 2026-01-25
+# 
+# 节点要求: 日本节点
+# 解锁难度: ⭐⭐⭐ (中等)
+# 建议: 使用日本原生 IP 节点，部分内容有地区限制
+# =============================================
+
+# 主站
+DOMAIN,www.dmm.co.jp
+
+# 视频 CDN (预告片/预览视频)
+DOMAIN,cc3001.dmm.co.jp
+
+# 通用域名匹配
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm-extension.com
+
+# CDN 和静态资源
+DOMAIN-SUFFIX,pics.dmm.co.jp
+DOMAIN-SUFFIX,p.dmm.co.jp
+
+DOMAIN-KEYWORD,dmm
