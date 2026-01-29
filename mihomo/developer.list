@@ -234,6 +234,13 @@ DOMAIN,marketplace.visualstudio.com
 DOMAIN,code.visualstudio.com
 
 # ---------------------------------------------
+# Microsoft 下载服务
+# ---------------------------------------------
+DOMAIN,go.microsoft.com
+DOMAIN,download.microsoft.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+
+# ---------------------------------------------
 # JetBrains - IDE
 # ---------------------------------------------
 DOMAIN-SUFFIX,jetbrains.com
